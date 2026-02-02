@@ -1,0 +1,10 @@
+{
+  "name": "oapicf.github.io",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "jazz-cli": "^1.1.0",
+    "jsonlint-dir": "^1.7.0"
+  }
+}

@@ -1,0 +1,78 @@
+{
+	"org": {
+		"id": "oapicf",
+		"name": "OpenAPI Clients Factory",
+		"description": "A collection of generated API clients and utilities to build them"
+	},
+	"repositories": {
+		"API Clients": [
+			{
+				"id": "endoflife.date-api-clients",
+				"name": "endoflife.date API Clients",
+				"description": "Generated client libraries for [endoflife.date API](https://endoflife.date/docs/api)"
+			},
+			{
+				"id": "minecraft-versions",
+				"name": "Minecraft Versions",
+				"description": "Generated client libraries for [Minecraft Versions API](https://launchermeta.mojang.com)"
+			},
+			{
+				"id": "openapi-azureipranges",
+				"name": "OpenAPI Azure IP Ranges",
+				"description": "Generated client libraries for [Azure IP Ranges and Service Tags API](https://www.microsoft.com/en-us/download/details.aspx?id=56519)"
+			},
+			{
+				"id": "openapi-ipify",
+				"name": "OpenAPI ipify",
+				"description": "Generated client libraries for [ipify API](https://www.ipify.org)"
+			},
+			{
+				"id": "openapi-iplocation",
+				"name": "OpenAPI IP Location",
+				"description": "Generated client libraries for IP Location API"
+			},
+			{
+				"id": "openapi-okta-ip-ranges",
+				"name": "OpenAPI Okta IP Ranges",
+				"description": "Generated client libraries for [Okta IP Ranges API](https://developer.okta.com/docs/reference/api/ip-ranges/)"
+			},
+			{
+				"id": "openapi-openai",
+				"name": "OpenAPI OpenAI",
+				"description": "Generated client libraries for [OpenAI API](https://platform.openai.com/docs/api-reference)"
+			},
+			{
+				"id": "pinterest-sdk",
+				"name": "Pinterest SDK",
+				"description": "Generated client libraries for [Pinterest API](https://developers.pinterest.com/docs/api/v5/)"
+			},
+			{
+				"id": "pokeapi-clients",
+				"name": "PokeAPI Clients",
+				"description": "Generated client libraries for [PokeAPI](https://pokeapi.co/docs/v2)"
+			},
+			{
+				"id": "swaggy-jenkins",
+				"name": "Swaggy Jenkins",
+				"description": "Generated client libraries for [Jenkins API](https://www.jenkins.io/doc/book/using/remote-access-api/)"
+			}
+		],
+		"Utilities": [
+			{
+				"id": "swaggy-c",
+				"name": "Swaggy C",
+				"description": "Builder for [OpenAPI Generator](https://openapi-generator.tech/)-generated API clients in multiple technology stacks"
+			},
+			{
+				"id": "generator-openapi-generator",
+				"name": "Generator-OpenAPI-Generator",
+				"description": "OpenAPI Generator projects generator using [Plop](https://plopjs.com/)"
+			},
+			{
+				"id": "oapicf.github.io",
+				"name": "oapicf.github.io",
+				"description": "Website for OAPICF project"
+			}
+		]
+	}
+}
