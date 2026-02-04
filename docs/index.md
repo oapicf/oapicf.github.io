@@ -1,6 +1,6 @@
 ![OpenAPI Clients Factory](images/logo.png)
 
-A collection of generated API clients and utilities to build them
+A collection of generated API clients and utilities
 
 ### API Clients
 * [![Build Status](https://github.com/oapicf/endoflife.date-api-clients/actions/workflows/ci-workflow.yaml/badge.svg)](https://github.com/oapicf/endoflife.date-api-clients/actions?query=workflow%3ACI) [endoflife.date API Clients](https://github.com/oapicf/endoflife.date-api-clients) - Generated client libraries for [endoflife.date API](https://endoflife.date/docs/api)
