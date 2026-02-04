@@ -1,6 +1,4 @@
-[![OpenAPI Clients Factory](images/logo.png)]
-
-# OpenAPI Clients Factory
+![OpenAPI Clients Factory](images/logo.png)
 
 A collection of generated API clients and utilities to build them
 
