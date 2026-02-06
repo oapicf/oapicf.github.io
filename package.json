@@ -5,6 +5,7 @@
   "private": true,
   "devDependencies": {
     "jazz-cli": "^1.1.0",
-    "jsonlint-dir": "^1.7.0"
+    "jsonlint-dir": "^1.7.0",
+    "yamllint-js": "^0.1.0"
   }
 }
