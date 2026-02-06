@@ -2,7 +2,7 @@
 	"org": {
 		"id": "oapicf",
 		"name": "OpenAPI Clients Factory",
-		"description": "A collection of generated API clients and utilities"
+		"description": "A collection of generated API clients and supporting utilities"
 	},
 	"repositories": {
 		"API Clients": [
