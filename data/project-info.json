@@ -14,12 +14,12 @@
 			{
 				"id": "minecraft-versions",
 				"name": "Minecraft Versions",
-				"description": "Generated client libraries for [Minecraft Versions API](https://launchermeta.mojang.com)"
+				"description": "Generated client libraries for [Minecraft Versions](https://minecraft.wiki/w/Version_history) info"
 			},
 			{
 				"id": "openapi-azureipranges",
 				"name": "OpenAPI Azure IP Ranges",
-				"description": "Generated client libraries for [Azure IP Ranges and Service Tags API](https://www.microsoft.com/en-us/download/details.aspx?id=56519)"
+				"description": "Generated client libraries for [Azure IP Ranges and Service Tags](https://www.microsoft.com/en-us/download/details.aspx?id=56519)"
 			},
 			{
 				"id": "openapi-ipify",
@@ -29,7 +29,7 @@
 			{
 				"id": "openapi-iplocation",
 				"name": "OpenAPI IP Location",
-				"description": "Generated client libraries for IP Location API"
+				"description": "Generated client libraries for [iplocation.net API](https://api.iplocation.net/)"
 			},
 			{
 				"id": "openapi-okta-ip-ranges",
