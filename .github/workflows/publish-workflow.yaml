@@ -7,13 +7,14 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
+          token: ${{ secrets.OAPICF_GITHUB_TOKEN }}
           set-safe-directory: ${{ github.workspace }}
       - uses: cliffano/command-docker-action@v1.4.0
         with:
-          command: 'make deps build'
+          command: 'make deps build'  
           image: cliffano/studio:2.16.0
       - uses: ad-m/github-push-action@v1.0.0
         with:
-          tags: true
+          tags: false
           github_token: ${{ secrets.OAPICF_GITHUB_TOKEN }}
           branch: ${{ github.ref }}
