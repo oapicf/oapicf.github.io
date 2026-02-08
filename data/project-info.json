@@ -48,8 +48,8 @@
 			},
 			{
 				"id": "pokeapi-clients",
-				"name": "PokeAPI Clients",
-				"description": "Generated client libraries for [PokeAPI](https://pokeapi.co/docs/v2)"
+				"name": "Poké API Clients",
+				"description": "Generated client libraries for [Poké API](https://pokeapi.co/docs/v2)"
 			},
 			{
 				"id": "swaggy-jenkins",
