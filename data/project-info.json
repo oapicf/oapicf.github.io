@@ -48,7 +48,7 @@
 			},
 			{
 				"id": "pokeapi-clients",
-				"name": "Poké API Clients",
+				"name": "PokéAPI Clients",
 				"description": "Generated client libraries for [Poké API](https://pokeapi.co/docs/v2)"
 			},
 			{
