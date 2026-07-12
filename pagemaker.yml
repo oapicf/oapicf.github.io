@@ -1,0 +1,15 @@
+---
+package_name: oapicf.github.io
+author: OpenAPI Clients Factory
+generator:
+  component: project-site
+  inputs:
+    project_id: oapicf.github.io
+    project_name: oapicf.github.io
+    project_desc: Website for OpenAPI Clients Factory project
+    author_name: OpenAPI Clients Factory
+    author_email: blah+lgl@cliffano.com
+    author_url: https://github.com/oapicf
+    github_id: oapicf
+    github_repo: oapicf.github.io
+    github_token_prefix: LITTLEGODZILLALABORATORY
