@@ -5,15 +5,15 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.OAPICF_GITHUB_TOKEN }}
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: '26'
       - run: npm install -g bob@5.3.0
       - run: bob updep
-      - uses: cliffano/command-docker-action@v1.4.0
+      - uses: cliffano/command-docker-action@v2.0.0
         with:
           image: cliffano/studio:3.2.0
           command: 'make deps ci'
