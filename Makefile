@@ -4,11 +4,11 @@
 ################################################################
 
 # PageMaker info
-PAGEMAKER_VERSION = 1.2.0
+PAGEMAKER_VERSION = 1.3.0
 
 UPDATE_MAKEFILE = pagemaker
 UPDATE_GENERATOR = website
-UPDATE_DOTFILES = .github/. .gitignore .yamllint templates/index.md.jazz
+UPDATE_DOTFILES = .github/. .gitignore .yamllint templates/index.md.jazz AGENTS.md
 UPDATE_PARTIALS = AVATAR BADGES DEVELOPERS_GUIDE
 
 ################################################################
