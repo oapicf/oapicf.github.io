@@ -4,7 +4,7 @@
 ################################################################
 
 # PageMaker info
-PAGEMAKER_VERSION = 1.3.0
+PAGEMAKER_VERSION = 1.4.0
 
 UPDATE_MAKEFILE = pagemaker
 UPDATE_GENERATOR = website
@@ -47,7 +47,10 @@ clean:
 	rm -rf stage/
 
 build:
-	node_modules/.bin/jazz-cli merge data/project-info.json templates/index.md.jazz | head -c -1 > docs/index.md
+	for jazz_file in templates/*.md.jazz; do \
+		page_name=$$(basename "$$jazz_file" .md.jazz); \
+		node_modules/.bin/jazz-cli merge data/project-info.json "$$jazz_file" | head -c -1 > docs/$$page_name.md; \
+	done
 
 ################################################################
 # Dependencies targets
@@ -74,7 +77,9 @@ lint:
 	mdl -r ~MD002,~MD013,~MD029,~MD033 $(shell find . -path ./stage -prune -o -path ./node_modules -prune -o -name "CHANGELOG.md" -prune -o -name "*.md" -print)
 
 test:
-	node_modules/.bin/markdown-link-check docs/index.md
+	for doc_file in docs/*.md; do \
+		node_modules/.bin/markdown-link-check "$$doc_file"; \
+	done
 
 test-examples:
 	echo "PLACEHOLDER"
