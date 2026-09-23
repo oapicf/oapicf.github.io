@@ -12,5 +12,5 @@
 Website for OAPICF project at [https://oapicf.github.io](https://oapicf.github.io).
 
 <!-- BEGIN:DEVELOPERS_GUIDE -->
-[Developer's Guide](https://oapicf.github.io/developers-guide-website.html)
+[Developer's Guide](https://cliffano.github.io/developers-guide-website.html)
 <!-- END:DEVELOPERS_GUIDE -->
