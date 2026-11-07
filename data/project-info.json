@@ -5,6 +5,18 @@
 		"description": "A collection of generated API clients and supporting utilities"
 	},
 	"repositories": {
+		"MCP": [
+			{
+				"id": "oag-mcp",
+				"name": "OAG-MCP",
+				"description": "Turn an OpenAPI spec and its OpenAPI Generator (OAG) typescript-fetch SDK into a code-mode MCP server at runtime"
+			},
+			{
+				"id": "packer-oag-mcp",
+				"name": "Packer OAG-MCP",
+				"description": "Packer builder of machine image for running [OAG-MCP](https://github.com/oapicf/oag-mcp)"
+			}
+		],
 		"API Clients": [
 			{
 				"id": "endoflife.date-api-clients",
